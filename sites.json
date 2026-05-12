@@ -1,0 +1,29 @@
+{
+    "magustoon": {
+        "url": "https://magustoon.org/",
+        "section_header": "Latest Releases",
+        "container": "div",
+        "card": "figure.card-group",
+        "title": "a.font-bold.line-clamp-2",
+        "link": "a.font-bold.line-clamp-2",
+        "chapter": "span.text-yellow-500",
+        "time": "time.text-gray-500"
+    },
+    "mangakatana": {
+        "url": "https://mangakatana.com/latest",
+        "container": "div#book_list",
+        "card": "div.item",
+        "title": "h3.title > a",
+        "link": "h3.title > a",
+        "chapter": ".chapters .chapter a",
+        "time": ".chapters .update_time"
+    },
+    "mangadex": {
+        "type": "api",
+        "url": "https://api.mangadex.org/chapter?limit=100&order[publishAt]=desc&translatedLanguage[]=en&includes[]=manga&includeFutureUpdates=0"
+    },
+    "webtoon": {
+        "type": "webtoon",
+        "base_url": "https://www.webtoons.com/en/originals/"
+    }
+}
